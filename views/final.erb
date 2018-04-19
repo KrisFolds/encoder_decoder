@@ -1,9 +1,12 @@
-<% if encode_decode.downcase == "encode" %>
+<h1> Hold on, I know it's here SOMEWHERE! <h1>
+	<center><img class="irc_mi" src="https://i.pinimg.com/originals/93/96/8e/93968e3c6959452df482dcf0f0b7f0c1.gif" alt="Image result for free animated gifs" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="304" height="171" style="margin-top: 25px;"></center>
+<center><% if encode_decode.downcase == "encode" %>
     <%   result = encoder(word, key) %>
-    Your word encoded is <%= result %>
+   <b> Your word encoded is <%= result %> <b>
 <% elsif encode_decode.downcase == "decode" %>
     <% result = decoder(word, key) %>
-    Your word decoded is <%= result %>
+   <b> Your word decoded is <%= result %> <b>
  <% else %>
-    You did not enter the word encode or decode!!
-<% end %>
+   <b> You did not enter the word encode or decode!! <b>
+<% end %></center>
+<center><img class="irc_mi" src="https://media.giphy.com/media/HlYYLuI3WsAW4/giphy.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="235" height="300" style="margin-top: 0px;" alt="Image result for free animated gifs"></center>

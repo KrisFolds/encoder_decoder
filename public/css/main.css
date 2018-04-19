@@ -1,0 +1,36 @@
+body {
+    color: blue;
+    background-image: url(/../images/background2.jpg);
+    font-size: 20;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+p {
+    color: red;
+    font-size: 18;
+}
+footer {
+    border-top: solid;
+    border-color: powderblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+}
+.footer-text {
+    position: relative;
+    top: 10%;
+    transform: translateY(-10%);
+}
+.center-body {
+    /*position: absolute;
+    top: 25%;
+    transform: translateX(90%);
+    text-align: center;*/
+}
+
+.puppies {
+    color: green;
+    font-size: 15;
+    text-align: center;
