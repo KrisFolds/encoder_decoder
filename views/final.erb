@@ -1,0 +1,9 @@
+<% if encode_decode.downcase == "encode" %>
+    <%   result = encoder(word, key) %>
+    Your word encoded is <%= result %>
+<% elsif encode_decode.downcase == "decode" %>
+    <% result = decoder(word, key) %>
+    Your word decoded is <%= result %>
+ <% else %>
+    You did not enter the word encode or decode!!
+<% end %>
